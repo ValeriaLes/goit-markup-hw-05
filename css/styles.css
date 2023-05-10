@@ -165,7 +165,6 @@ img {
   bottom: -1px;
   border-radius: 2px;
   background-color: var(--cta-color);
-  display: block;
 }
 
 .logo-nav .logo {
