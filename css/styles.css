@@ -162,6 +162,7 @@ img {
   bottom: -1px;
   border-radius: 2px;
   background-color: var(--cta-color);
+  color: var(--cta-color);
 }
 
 .logo-nav .logo {
