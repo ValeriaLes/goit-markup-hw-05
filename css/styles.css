@@ -409,9 +409,6 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.logo-slogan {
-  max-width: 264px;
-}
 
 .logo-footer {
   margin-bottom: 16px;
@@ -607,10 +604,6 @@ img {
   fill: var(--white-color);
 }
 
-.modal-form {
-  display: flex;
-  flex-direction: column;
-}
 .modal-title {
   margin-bottom: 16px;
   font-weight: 500;
@@ -706,6 +699,9 @@ img {
   background-position: center;
   margin-right: 8px;
 }
+.privacy-link {
+  color: var(--primary-brand);
+}
 
 .modal-check:checked + .modal-check-descr::before {
   background-color: var(--cta-color);
@@ -758,8 +754,8 @@ img {
 .subscribe-input {
   padding-left: 16px;
   margin-right: 24px;
-  width: 100%;
   height: 40px;
+  width: 264px;
   border: 1px solid var(--white-color);
   border-radius: 4px;
   background-color: transparent;
@@ -783,6 +779,10 @@ img {
   border-radius: 4px;
   border: none;
   min-width: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -795,9 +795,9 @@ img {
 .btn-text {
   text-align: center;
 }
-.btn-wrapper {
+/* .btn-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
-}
+} */
